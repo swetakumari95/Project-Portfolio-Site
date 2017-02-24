@@ -1,0 +1,57 @@
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+
+hr{
+	border-color: black;
+}
+
+header{
+	margin-top: 5px;
+}
+
+header h1, header h2{
+	margin: 5px;
+}
+
+.about_me_img img{
+	width: 30vw;
+	height: 50vh;
+	border-radius: 5px;
+}
+
+.about_me_heading{
+	text-align: center;
+}
+
+.about_me_content{
+	text-align: justify;
+	font-size: 1.5em;
+}
+
+.work_head{
+	text-align: center;
+}
+
+.card{
+	text-align: center;
+	border: 1px solid #ccc;
+    box-shadow: 5px 5px 10px 2px #ccc;
+    border-radius: 5px;
+    max-width: 370px;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+}
+
+.card img{
+	max-width: 95%;
+	border-radius: 5px;
+}
+
+.contact_me_head{
+	text-align: center;
+}
+
+.contact_me_links{
+	text-align: center;
+}
