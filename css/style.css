@@ -4,6 +4,7 @@ body{
 
 hr{
 	border-color: black;
+	margin: 10px 0 10px 0;
 }
 
 header{
@@ -14,14 +15,19 @@ header h1, header h2{
 	margin: 5px;
 }
 
+.header_head{
+	text-align: right;
+}
+
 .about_me_img img{
 	width: 30vw;
 	height: 50vh;
 	border-radius: 5px;
 }
 
-.about_me_heading{
+.about_me_head{
 	text-align: center;
+	margin-top: 10px;
 }
 
 .about_me_content{
@@ -31,6 +37,7 @@ header h1, header h2{
 
 .work_head{
 	text-align: center;
+	margin-top: 10px;
 }
 
 .card{
@@ -38,20 +45,41 @@ header h1, header h2{
 	border: 1px solid #ccc;
     box-shadow: 5px 5px 10px 2px #ccc;
     border-radius: 5px;
-    max-width: 370px;
+    max-width: 350px;
     padding: 10px;
     margin: 0 auto 10px auto;
 }
 
 .card img{
-	max-width: 95%;
+	max-width: 100%;
 	border-radius: 5px;
 }
 
 .contact_me_head{
 	text-align: center;
+	margin-top: 10px;
 }
 
 .contact_me_links{
 	text-align: center;
 }
+
+@media screen and (max-width: 900px){
+	.about_me_img img{
+		width: 30vw;
+		height: 35vh;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.header_head{
+		text-align: center;
+	}
+
+	.about_me_img img{
+		width: 75vw;
+		height: 75vw;
+	}
+}
+
+
