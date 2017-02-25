@@ -1,46 +1,49 @@
-body{
+body {
 	font-family: 'Roboto Mono', monospace;
 }
 
-hr{
+hr {
 	border-color: black;
 	margin: 10px 0 10px 0;
 }
 
-header{
+/*Styles for the Header*/
+header {
 	margin-top: 5px;
 }
 
-header h1, header h2{
+header h1, header h2 {
 	margin: 5px;
 }
 
-.header_head{
+.header-head {
 	text-align: right;
 }
 
-.about_me_img img{
+/*Styles for the About me section*/
+.about-me-img {
 	width: 30vw;
 	height: 50vh;
 	border-radius: 5px;
 }
 
-.about_me_head{
+.about-me-head {
 	text-align: center;
 	margin-top: 10px;
 }
 
-.about_me_content{
+.about-me-content {
 	text-align: justify;
 	font-size: 1.5em;
 }
 
-.work_head{
+/*Styles for the Featured work section*/
+.work-head {
 	text-align: center;
 	margin-top: 10px;
 }
 
-.card{
+.card {
 	text-align: center;
 	border: 1px solid #ccc;
     box-shadow: 5px 5px 10px 2px #ccc;
@@ -50,36 +53,36 @@ header h1, header h2{
     margin: 0 auto 10px auto;
 }
 
-.card img{
+.card-img {
 	max-width: 100%;
 	border-radius: 5px;
 }
 
-.contact_me_head{
+/*Styles for the Footer(contact me)*/
+.contact-me-head {
 	text-align: center;
 	margin-top: 10px;
 }
 
-.contact_me_links{
+.contact-me-links {
 	text-align: center;
 }
 
+/*Media queries*/
 @media screen and (max-width: 900px){
-	.about_me_img img{
+	.about-me-img {
 		width: 30vw;
 		height: 35vh;
 	}
 }
 
-@media screen and (max-width: 767px){
-	.header_head{
+@media screen and (max-width: 767px) {
+	.header-head {
 		text-align: center;
 	}
 
-	.about_me_img img{
+	.about-me-img {
 		width: 75vw;
 		height: 75vw;
 	}
 }
-
-
