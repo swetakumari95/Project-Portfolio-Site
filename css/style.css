@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto Mono', monospace;
+	font-family: "Roboto Mono", monospace;
 }
 
 hr {
@@ -22,8 +22,6 @@ header h1, header h2 {
 
 /*Styles for the About me section*/
 .about-me-img {
-	width: 30vw;
-	height: 50vh;
 	border-radius: 5px;
 }
 
@@ -69,20 +67,8 @@ header h1, header h2 {
 }
 
 /*Media queries*/
-@media screen and (max-width: 900px){
-	.about-me-img {
-		width: 30vw;
-		height: 35vh;
-	}
-}
-
 @media screen and (max-width: 767px) {
 	.header-head {
 		text-align: center;
-	}
-
-	.about-me-img {
-		width: 75vw;
-		height: 75vw;
 	}
 }
